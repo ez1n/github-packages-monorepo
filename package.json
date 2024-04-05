@@ -1,0 +1,24 @@
+{
+  "name": "@ez1n/practice-github-packages",
+  "version": "0.0.1",
+  "description": "practice github packages",
+  "main": "index.js",
+  "files": [
+    "playground/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ez1n"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ez1n/practice-github-packages.git"
+  },
+  "author": "ez1n",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
