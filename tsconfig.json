@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@ez1n/sample-util": [
+        "./packages/utils/sample-util/src"
+      ],
+      "@ez1n/sample-module": [
+        "./packages/modules/sample-module/src"
+      ]
+    }
+  }
+}

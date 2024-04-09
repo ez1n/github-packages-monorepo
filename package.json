@@ -1,24 +1,24 @@
 {
-  "name": "@ez1n/practice-github-packages",
-  "version": "0.0.4",
-  "description": "practice github packages",
+  "name": "practice-github-packages",
+  "version": "1.0.0",
   "main": "index.js",
-  "files": [
-    "playground/*"
+  "repository": "https://github.com/ez1n/practice-github-packages.git",
+  "author": "ez1n <eodrmfdl1004@naver.com>",
+  "license": "MIT",
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "@parcel/core": "^2.12.0",
+    "@parcel/packager-ts": "2.12.0",
+    "@parcel/transformer-typescript-types": "2.12.0",
+    "eslint": "^9.0.0",
+    "parcel": "^2.12.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.4"
+  },
+  "workspaces": [
+    "packages/**"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "ez1n"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ez1n/practice-github-packages.git"
-  },
-  "author": "ez1n",
-  "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "build": "parcel build 'packages/*/*' --no-cache"
   }
 }

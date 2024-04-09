@@ -1,0 +1,26 @@
+{
+  "name": "@ez1n/sample-module",
+  "version": "0.0.0",
+  "description": "",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "keywords": [],
+  "author": "ez1n",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ez1n/practice-github-packages.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@ez1n/sample-util": "0.0.0"
+  }
+}
