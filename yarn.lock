@@ -87,11 +87,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ez1n/sample-module@workspace:packages/modules/sample-module"
   dependencies:
-    "@ez1n/sample-util": "npm:0.0.0"
+    "@ez1n/sample-util": "npm:0.0.1"
   languageName: unknown
   linkType: soft
 
-"@ez1n/sample-util@npm:0.0.0, @ez1n/sample-util@workspace:packages/utils/sample-util":
+"@ez1n/sample-util@npm:0.0.1, @ez1n/sample-util@workspace:packages/utils/sample-util":
   version: 0.0.0-use.local
   resolution: "@ez1n/sample-util@workspace:packages/utils/sample-util"
   languageName: unknown
@@ -2101,6 +2101,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"github-packages-monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "github-packages-monorepo@workspace:."
+  dependencies:
+    "@parcel/core": "npm:^2.12.0"
+    "@parcel/packager-ts": "npm:2.12.0"
+    "@parcel/transformer-typescript-types": "npm:2.12.0"
+    eslint: "npm:^9.0.0"
+    parcel: "npm:^2.12.0"
+    prettier: "npm:^3.2.5"
+    typescript: "npm:^5.4.4"
+  languageName: unknown
+  linkType: soft
+
 "glob-parent@npm:^6.0.2":
   version: 6.0.2
   resolution: "glob-parent@npm:6.0.2"
@@ -3123,20 +3137,6 @@ __metadata:
   checksum: 10c0/0505cb70ece051206ffa932394181372be6390a974fd2f50e4e6fdd5d11e41feffba9a5f5e22809ca42899f79bd489d53ceac1d7ad0d782db9521b578e5b7f5a
   languageName: node
   linkType: hard
-
-"practice-github-packages@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "practice-github-packages@workspace:."
-  dependencies:
-    "@parcel/core": "npm:^2.12.0"
-    "@parcel/packager-ts": "npm:2.12.0"
-    "@parcel/transformer-typescript-types": "npm:2.12.0"
-    eslint: "npm:^9.0.0"
-    parcel: "npm:^2.12.0"
-    prettier: "npm:^3.2.5"
-    typescript: "npm:^5.4.4"
-  languageName: unknown
-  linkType: soft
 
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1

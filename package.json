@@ -1,8 +1,8 @@
 {
-  "name": "practice-github-packages",
+  "name": "github-packages-monorepo",
   "version": "1.0.1",
   "main": "index.js",
-  "repository": "https://github.com/ez1n/practice-github-packages.git",
+  "repository": "https://github.com/ez1n/github-packages-monorepo.git",
   "author": "ez1n <eodrmfdl1004@naver.com>",
   "license": "MIT",
   "packageManager": "yarn@4.1.1",

@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ez1n/practice-github-packages"
+    "url": "https://github.com/ez1n/github-packages-monorepo"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
