@@ -49,33 +49,33 @@ pnpm install
 
 3. **버전 수정**
 
-- 배포 전 변경된 packages 하위 디렉토리의 package.json 버전을 수정
-- 버전 규칙은 상의해서 결정
-- 현재(초기 버전)는 0.0.2로 배포되어 있습니다.
+- 배포 전 변경된 packages 하위 디렉토리의 package.json 버전 수정
 - 예시
   ```json
   // packages/utils/package.json
-  {
-    "name": "@ez1n/sample-utils",
-    "version": "수정할 버전",
-    "description": "util functions",
-    "source": "src/index.ts",
-    "main": "dist/index.js",
-    "module": "dist/index.module.js",
-    "types": "dist/index.d.ts",
-    "files": ["dist"],
-    "sideEffects": false,
-    "keywords": [],
-    "author": "imasdev",
-    "license": "ISC",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ez1n/github-packages-monorepo"
-    },
-    "publishConfig": {
-      "@ez1n:registry": "https://npm.pkg.github.com"
-    }
+
+{
+  "name": "@ez1n/sample-util",
+  "version": "0.0.1",
+  "description": "",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "sideEffects": false,
+  "keywords": [],
+  "author": "ez1n",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ez1n/github-packages-monorepo"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
+}
+
   ```
 
 <br/>
