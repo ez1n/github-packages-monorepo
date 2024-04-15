@@ -52,28 +52,27 @@ pnpm install
   ```json
   // packages/utils/package.json
 
-{
-  "name": "@ez1n/sample-util",
-  "version": "0.0.1",
-  "description": "",
-  "source": "src/index.ts",
-  "main": "dist/index.js",
-  "module": "dist/index.module.js",
-  "types": "dist/index.d.ts",
-  "files": ["dist"],
-  "sideEffects": false,
-  "keywords": [],
-  "author": "ez1n",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ez1n/github-packages-monorepo"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  {
+    "name": "@ez1n/sample-util",
+    "version": "0.0.1",
+    "description": "",
+    "source": "src/index.ts",
+    "main": "dist/index.js",
+    "module": "dist/index.module.js",
+    "types": "dist/index.d.ts",
+    "files": ["dist"],
+    "sideEffects": false,
+    "keywords": [],
+    "author": "ez1n",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ez1n/github-packages-monorepo"
+    },
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+    }
   }
-}
-
   ```
 
 <br/>
