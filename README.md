@@ -30,19 +30,17 @@ pnpm install
 - **예시**
 
   ```ts
-  // packages/utils/src/print.ts
+  // packages/utils/sample-util/src/sample.ts
 
-  export function printHello(name: string) {
-    console.log(`Hello, ${name}`);
-  }
+  export const hello = (value: string) => `hello ${value}`;console.log(`Hello, ${name}`);
   ```
 
   ```ts
-  // packages/utils/src/index.ts
+  // packages/utils/sample-util/src/index.ts
 
-  import { printHello } from "./print";
+  import { hello } from "./sample";
 
-  export { printHello };
+  export { hello };
   ```
 
 <br/>
